@@ -4,18 +4,76 @@
     font-family: 'FonteLogo';
     src: url('_fonts/bubblegum-sans-regular.otf');
 }
-
+/*E PARA PAGINA INDEX*/
 div#interface {
     width: 1000px;
     background-color: #ffffff;
-    margin: 20px auto 20px auto;
+    margin: 0px auto 0px auto;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     padding: 20px; /* pode ser usado 10px 10px 10px 10px da nos msm*/
 
 }
+/*lgo da da ifto*/
+div#inferface#section#logoIfto h1{
+   display: block;
+   float: left;
+   width: 200px;
+   font-size: 10px;
+}
+/*E PARA PAGINA IMENTA*/
+div#interfaceEmenta {
+   width: 1000px;
+   background-color: #ffffff;
+   margin: auto auto -10px auto;
+   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+   padding: 20px; /* pode ser usado 10px 10px 10px 10px da nos msm*/
+
+}
+
+section#ttifto{
+  width: 1000px;
+  display: block;
+  color: white;
+  float: end;
+  background-color: green;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+  padding: auto 10px 50px 50px;
+  margin: -50px 10px 50px 10px;
+
+}
+
+section#ttifto h1{  
+   display: block;
+   font-size: 50pt;
+}
+section#ttifto h2{  
+   display: block;
+   font-size: 25pt;
+}
+
+section#tlMateria h3{
+   display: block;
+   height: 100px;
+   width: 750px;
+   float: right;
+   font-size: 30pt;
+   text-align: center;
+   box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.5);
+   margin: -120px auto 0px 0px;
+   background-color: darkmagenta;
+   color: white;
+   font-family:  monospace;
+}
+
+h3{
+   font-size: 25pt;
+
+}
+
 p { 
     text-align: justify; /*Parafrago justificado*/
     text-indent: 50px; /*inicio de paragrafo*/
+    font-size: 16pt;
  }
 a {
     color: forestgreen;
@@ -25,21 +83,22 @@ a {
  ul {
     text-align: justify; /*Parafrago justificado*/
     text-indent: 5px; /*inicio de paragrafo*/
+    font-size: 14pt;
  }
  ol{
     text-align: justify; /*Parafrago justificado*/
     text-indent: 5px; /*inicio de paragrafo*/ 
+    font-size: 14pt;
  }
- 
  td{
    text-align: justify; /*Parafrago justificado*/
    text-indent: 5px; /*inicio de paragrafo*/
+   font-size: 14pt;
  }
-
-
  a:hover {
      text-decoration: underline;   
  }
+ 
  section#imgLadoA {
     display: block;
     width: 700px; /* largura do texto na esquerda*/
@@ -50,7 +109,7 @@ a {
  }
  section#ladoB {
     display: block;
-    width: 900px; /* largura do texto na esquerda*/
+    width: 1000px; /* largura do texto na esquerda*/
       
      }
 
@@ -62,3 +121,4 @@ a {
     padding: 5px 0px 5px 10px;
     margin: 20px 0px 20px 0px;
  }
+
